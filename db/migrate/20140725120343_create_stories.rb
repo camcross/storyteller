@@ -9,7 +9,7 @@ class CreateStories < ActiveRecord::Migration
     	t.text :body
     	t.integer :points
 
-    	t.timestamps
+    	t.timestampsw
     end
   end
 end
